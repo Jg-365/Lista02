@@ -4,7 +4,7 @@ public class Main{
 	 public static void main(String[] args) {
 		Utilidades utilidades = new Utilidades(); 
 		//EXERCICIO 01
-		/*System.out.println("Exercicio 1:");
+		System.out.println("Exercicio 1:");
 		int vet[] = {1,2,3,4,5,6,7};
 		int resultado = utilidades.somatorio(vet);
 		System.out.println("Resultado = " + resultado);
@@ -152,27 +152,28 @@ public class Main{
 		System.out.println("A palavra invertida eh: " + utilidades.inversao_de_string(word));
 		
 		//EXERCICIO 19:
-		System.out.println("Exercicio 19: ");
-	    float valor_inicial=1000;
-	    float taxa_juros = 0.1f;
-	    int num_periodos = 2;
-	    System.out.println("O valor do Montante é de: " + utilidades.juros_compostos(valor_inicial, taxa_juros, num_periodos));
-	    
-	    //EXERCICIO 20:
-	    System.out.println("Exercicio 20: ");
-	    int num_perf = 1;
-	    System.out.println(utilidades.numero_perfeito(num_perf));
-	 	
-		
+                System.out.println("Exercicio 19: ");
+		float valor_inicial=1000;
+		float taxa_juros = 0.1f;
+		int num_periodos = 2;
+		System.out.println("O valor do Montante é de: " + utilidades.juros_compostos(valor_inicial, taxa_juros, num_periodos));
+		    
+		    
+		//EXERCICIO 20:
+		System.out.println("Exercicio 20: ");
+		int num_perf = 1;
+		System.out.println(utilidades.numero_perfeito(num_perf));
+		 	
+			
 		//EXERCICIO 21:
-		System.out.println("Exercicio 21: ");
+	        System.out.println("Exercicio 21: ");
 		int num_reducao = 5;
 		System.out.println(utilidades.diminuicao_de_vetor(num_reducao));
-	 	*/
-		
+		 	
+			
 		//EXERCICIO 22:
 		System.out.println("Exercicio 22: ");
-		utilidades.imprimir_elementos();
-	 } 
-}
-
+	        utilidades.imprimir_elementos();
+		        } 
+	        } 
+	
